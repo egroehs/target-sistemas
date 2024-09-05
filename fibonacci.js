@@ -1,6 +1,7 @@
 
 function fibonacci(numero) {
     
+    //Inicializado os dois primeiros numeros da sequencia
     let num1 = 0, num2 = 1;
 
     if(numero < 0) {
@@ -11,6 +12,7 @@ function fibonacci(numero) {
         console.log(`O número ${numero} pertence à sequência de Fibonacci.`);
     }
 
+    //Criando a sequencia
     while (num2 < numero) {
       let proximoNum = num1 + num2;
       num1 = num2;
