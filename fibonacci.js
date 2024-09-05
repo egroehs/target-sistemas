@@ -6,10 +6,12 @@ function fibonacci(numero) {
 
     if(numero < 0) {
     console.log("Numero invalido");
+    return;
     }
 
     if (numero === 0 || numero === 1) {
         console.log(`O número ${numero} pertence à sequência de Fibonacci.`);
+        return;
     }
 
     //Criando a sequencia
@@ -25,5 +27,4 @@ function fibonacci(numero) {
       console.log(`O número ${numero} não pertence a sequencia de Fibonacci`);
     }
 }
-
-fibonacci(45);
+fibonacci(32);
